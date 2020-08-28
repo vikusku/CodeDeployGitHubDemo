@@ -1,0 +1,7 @@
+- name: webfactory/create-aws-codedeploy-deployment
+  # You may pin to the exact commit or the version.
+  # uses: webfactory/create-aws-codedeploy-deployment@8e523b4e62e38fd186d0538262ed7025a1396b2d
+  uses: webfactory/create-aws-codedeploy-deployment@v0.1.0
+  with:
+    # AWS CodeDeploy application name; defaults to short repository name
+    application: # optional
